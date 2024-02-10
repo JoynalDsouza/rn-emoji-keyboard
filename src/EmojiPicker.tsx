@@ -55,11 +55,11 @@ export const EmojiPicker = ({
       defaultHeight={defaultHeight}
       {...props}
     >
-      <ModalWithBackdrop
+{/*       <ModalWithBackdrop
         isOpen={open}
         backdropPress={close}
         onRequestClose={onRequestClose || close}
-      >
+      > */}
         <>
           {expandable && (
             <Knob
@@ -79,7 +79,7 @@ export const EmojiPicker = ({
             <EmojiStaticKeyboard />
           </Animated.View>
         </>
-      </ModalWithBackdrop>
+{/*       </ModalWithBackdrop> */}
     </KeyboardProvider>
   )
 }
